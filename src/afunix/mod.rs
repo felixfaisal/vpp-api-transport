@@ -52,7 +52,7 @@ impl Transport {
             panic!("One transport already created!");
         }
 
-        gs.created = true;
+        // gs.created = true;
 
         Transport {
             connected: false,
